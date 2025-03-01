@@ -36,8 +36,8 @@ RUN npm install && npm run build
 # Establecer permisos correctos
 RUN chmod -R 777 storage bootstrap/cache
 
-# Exponer el puerto 9000 para PHP-FPM
-EXPOSE 9000
+# Expone el puerto correcto
+EXPOSE 10000
 
-# Comando para iniciar PHP-FPM
-CMD ["php-fpm"]
+# Configura el comando de inicio del contenedor
+CMD php artisan serve --host=0.0.0.0 --port=10000
