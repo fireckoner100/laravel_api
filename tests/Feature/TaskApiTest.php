@@ -14,7 +14,7 @@ class TaskApiTest extends TestCase
     use WithFaker;
 
     
-    public function it_can_create_a_task_via_api()
+    public function test_it_can_create_a_task_via_api()
     {
         
         $user = User::factory()->create();
