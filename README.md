@@ -16,7 +16,7 @@ Este es un proyecto desarrollado con el framework Laravel, proporcionando una AP
 
 Antes de comenzar, asegúrate de tener instalado lo siguiente en tu sistema:
 
-- **PHP** (>= 8.0)
+- **PHP** (>= 8.2)
 - **Composer** ([Descargar Composer](https://getcomposer.org/))
 - **Laravel** (Opcional, si deseas utilizar comandos globales)
 - **Base de Datos** (MySQL o PostgreSQL recomendado)
